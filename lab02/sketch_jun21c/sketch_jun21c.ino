@@ -4,7 +4,7 @@ void setup() {
   pinMode(ledPin, OUTPUT);
 }
 void loop() {
-  // S 短闪3次
+  //  S 短闪3次
   for(int i=0; i<3; i++) { 
     digitalWrite(ledPin, HIGH); 
     delay(200); 
@@ -12,7 +12,7 @@ void loop() {
     delay(200); 
   }
   delay(500); 
-  // O 长闪3次
+  //  O 长闪3次
   for(int i=0; i<3; i++) { 
     digitalWrite(ledPin, HIGH); 
     delay(600); 
@@ -20,7 +20,7 @@ void loop() {
     delay(200); 
   }
   delay(500);
-  // S 短闪3次
+  //  S 短闪3次
   for(int i=0; i<3; i++) { 
     digitalWrite(ledPin, HIGH); 
     delay(200); 
