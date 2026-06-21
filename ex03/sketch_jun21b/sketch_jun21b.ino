@@ -1,6 +1,6 @@
 /*
  * ESP32 SOS 信号灯 - 非阻塞 millis() 实现
- * 适用于 Arduino IDE
+ * 适用于  Arduino IDE
  * 短闪 = 200ms，长闪 = 600ms
  * SOS = 三短 · 三长 · 三短，每次结束停顿 2 秒
  */
@@ -8,7 +8,7 @@
 const int ledPin = 2;   // 板载 LED 通常接 GPIO2，可自行修改
 
 // 时间常量（单位：毫秒）
-const unsigned long SHORT_FLASH = 200;
+const unsigned long SHORT_FLASH = 230;
 const unsigned long LONG_FLASH  = 600;
 const unsigned short GAP_SHORT  = 200;   // 短闪之间的间隔
 const unsigned short GAP_LONG   = 600;   // 字母之间的间隔（S与O，O与S）
