@@ -1,7 +1,7 @@
 // ex02 millis实现1Hz LED闪烁，不使用delay阻塞
 const int ledPin = 2;
 unsigned long prevTime = 0;
-const unsigned long interval = 400; // 500ms翻转一次，完整周期1000ms=1Hz
+const unsigned long interval = 100; // 500ms翻转一次，完整周期1000ms=1Hz
 bool ledState = false;
 
 void setup() {
